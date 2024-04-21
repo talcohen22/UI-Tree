@@ -1,0 +1,41 @@
+.node-tree {
+
+    &.is-selected {
+        background-color: $selectedBgc;
+
+        .file-folder:hover {
+            background-color: $selectedBgc;
+        }
+    }
+
+    .sub-tree {
+        max-height: 0;
+        overflow: hidden;
+        padding-inline-start: 0;
+
+        &.open {
+            max-height: 1000px;
+            transition: max-height 2000ms;
+        }
+
+        &.close {
+            max-height: 0;
+            transition: max-height 500ms;
+        }
+    }
+
+    .file-folder {
+        display: flex;
+        gap: 10px;
+        padding: 10px;
+        cursor: pointer;
+
+        &:hover {
+            background-color: $hoverGray;
+        }
+    }
+
+    svg {
+        width: 16px;
+    }
+}

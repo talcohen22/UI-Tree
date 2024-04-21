@@ -1,0 +1,72 @@
+[
+  {
+    "name" : "apps",
+    "type": "folder",
+    "children": [
+      {
+        "name" : "whatsapp",
+        "type": "folder",
+        "children": [
+          {
+            "name" : "images",
+            "type": "folder",
+            "children": [
+              {
+                "name" : "image.png",
+                "type": "file"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "chrome",
+        "type":"folder",
+        "children":[
+          {
+            "name": "history",
+            "type": "folder",
+            "children": [
+              {
+                "name": "history.json",
+                "type": "file"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name" : "games",
+    "type": "folder",
+    "children": [
+      {
+        "name" : "digger",
+        "type": "folder",
+        "children": [
+          {
+            "name" : "digger.exe",
+            "type": "file"
+          }
+        ]
+      },
+      {
+        "name" : "tetris",
+        "type": "folder",
+        "children": [
+          {
+            "name" : "lib",
+            "type": "folder",
+            "children": [
+              {
+                "name" : "lib.dll",
+                "type": "file"
+              }
+            ] 
+          }
+        ]
+      }
+    ]
+  }
+]
